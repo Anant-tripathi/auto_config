@@ -1,14 +1,14 @@
 #!/bin/bash
 
 echo -e "\e[31mUpdating system\e[0m"
-#garuda-update
+garuda-update
 mkdir ~/Git2
 cd ~/Git2
 
 echo -e "\e[31mInstalling google chrome\e[0m"
-#git clone https://aur.archlinux.org/google-chrome.git
-#cd google-chrome
-#makepkg -sirc
+git clone https://aur.archlinux.org/google-chrome.git
+cd google-chrome
+makepkg -sirc
 echo -e "\e[32mInstalled Google Chrome successfully\e[0m"
 
 echo -e "\e[31mInstalling Telegram Desktop\e[0m"
